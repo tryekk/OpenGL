@@ -8,7 +8,7 @@
 #include <GLFW/glfw3.h>
 
 // Window dimensions
-const GLuint WIDTH = 800, HEIGHT = 600;
+const GLuint WIDTH = 1920, HEIGHT = 1080;
 
 // Shaders
 const GLchar* vertexShaderSource = "#version 330 core\n"
