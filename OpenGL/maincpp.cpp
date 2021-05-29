@@ -122,7 +122,7 @@ int main()
     {
         -0.5f, -0.5f, 0.0f, // Left
         0.5f, -0.5f, 0.0f, // Right
-        0.0f,  0.5f, 0.0f  // Top
+        0.0f,  1.0f, 0.0f,  // Top
     };
 
     GLuint VBO, VAO;
@@ -149,7 +149,7 @@ int main()
 
         // Render
         // Clear the colorbuffer
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClearColor(0.3f, 0.3f, 0.5f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
         // Draw our first triangle
